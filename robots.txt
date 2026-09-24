@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://armagangok.github.io/pomoji-app/sitemap.xml
