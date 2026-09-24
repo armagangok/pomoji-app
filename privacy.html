@@ -42,16 +42,17 @@
 <main id="main" class="legal"><div class="wrap">
 
   <h1>Privacy Policy</h1>
-  <p class="meta">Last updated: July 24, 2026</p>
+  <p class="meta">Last updated: September 24, 2026</p>
 
   <p>Pomoji ("we", "our", "the app") is a Pomodoro focus timer developed by AppSweat. This policy explains what information the app handles and, more importantly, what it does not.</p>
 
   <h2>1. Information Stored On Your Device</h2>
-  <p>Everything you create inside Pomoji — focus sessions, streaks, completion history, productivity heatmaps, custom durations, sound preferences, appearance settings — is stored <strong>only on your device</strong>, inside the app's sandboxed container. We do not upload, sync, or back up your data to any server operated by us.</p>
+  <p>Everything you create inside Pomoji — focus sessions, streaks, completion history, productivity heatmaps, custom durations, sound preferences, appearance settings — is stored <strong>on your device</strong>, inside the app's sandboxed container, unless you turn on iCloud Sync (see below). We do not upload or back up your data to any server operated by us.</p>
   <ul>
     <li>Session and streak data are stored locally using standard iOS storage.</li>
     <li>If iCloud backup is enabled on your device, app data may be included in your personal iCloud backup — that is between you and Apple, and remains encrypted with your Apple ID.</li>
-    <li>Uninstalling Pomoji permanently deletes all of your local data.</li>
+    <li><strong>Optional iCloud Sync (Pomoji Pro).</strong> iCloud Sync is off by default. If you turn it on in Pomoji's Settings, your focus sessions and settings are stored in your own iCloud account using Apple's iCloud key-value storage, so they appear on your other devices signed in with the same Apple ID. This data is handled by Apple under your Apple ID and is never sent to us. You can turn iCloud Sync off at any time.</li>
+    <li>Uninstalling Pomoji deletes the data stored on that device. Data you synced with iCloud Sync remains in your iCloud account.</li>
   </ul>
 
   <h2>2. Information We Receive From Apple / RevenueCat</h2>
@@ -66,8 +67,9 @@
   <h2>3. Diagnostics & Crash Reports</h2>
   <p>Pomoji does not include third-party analytics SDKs. If you have "Share With App Developers" enabled in iOS Settings → Privacy → Analytics &amp; Improvements, Apple may send us anonymized crash reports so we can fix bugs. These reports contain no session content or personal data.</p>
 
-  <h2>4. Notifications</h2>
-  <p>With your permission, Pomoji sends local notifications to alert you when a focus sprint or break ends. Notifications are generated on your device and are not sent through any server.</p>
+  <h2>4. Notifications, Alarms &amp; Live Activities</h2>
+  <p>With your permission, Pomoji sends local notifications to alert you when a focus session or break ends. On iOS 26 and later, if you allow alarms, Pomoji uses Apple's AlarmKit to schedule an alarm on your device for the end of each session, so it can ring even in Silent mode, and shows the countdown as a Live Activity on your Lock Screen and in the Dynamic Island.</p>
+  <p>Notifications, alarms and Live Activities are created on your device and are not sent through any server operated by us. You can turn these permissions off at any time in iOS Settings → Pomoji.</p>
 
   <h2>5. Third-Party Services</h2>
   <ul>
